@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ratings</title>
+    <title>Comments</title>
 </head>
 <body>
-    {% for rating in ratings %}
-        {{ ratings.trailmixer_id }}<br>
-        {{ ratings.rating_value }}<br>
-        {{ ratings.rating_created-by }}<br>
+    {% for comment in comments %}
+        {{ comments.trailmixer_id }}<br>
+        {{ comments.comment_text }}<br>
+        {{ comments.comment_date }}<br>
+        {{ comments.comment_created_by }}<br>
     {% endfor %}
 </body>
 </html>
