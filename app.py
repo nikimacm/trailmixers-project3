@@ -17,10 +17,10 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/get_trails")
-def get_trails():
-    trails = mongo.db.trails.find()
-    return render_template("trails.html", trails=trails)
+@app.route("/get_base")
+def get_base():
+    base = mongo.db.base.find()
+    return render_template("base.html", base=base)
 
 
 if __name__ == "__main__":
