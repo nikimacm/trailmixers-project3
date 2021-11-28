@@ -60,16 +60,16 @@ def add_record():
     type = input("Enter type of trail > ")
 
     new_doc = {
-        "title": trail.title(),
-        "address": trail.address(),
+        "title": title.lower(),
+        "address": address.lower(),
         "description": description,
         "difficulty": difficulty,
         "directions": directions,
         "elevation": elevation,
         "image": image,
-        "length": length
+        "length": length,
         "time": time,
-        "type": type,
+        "type": type
     }
 
     try:
