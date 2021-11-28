@@ -6,22 +6,7 @@ if os.path.exists("env.py"):
 
 MONGO_URI = os.environ.get("MONGO_URI")
 DATABASE = "TrailMixers"
-COLLECTION = "ratings"
-
-
-MONGO_URI = os.environ.get("MONGO_URI")
-DATABASE = "TrailMixers"
-COLLECTION = "comments"
-
-
-MONGO_URI = os.environ.get("MONGO_URI")
-DATABASE = "TrailMixers"
 COLLECTION = "trails"
-
-
-MONGO_URI = os.environ.get("MONGO_URI")
-DATABASE = "TrailMixers"
-COLLECTION = "users"
 
 def mongo_connect(url):
     try:
