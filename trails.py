@@ -31,11 +31,11 @@ def show_menu():
 
 def get_record():
     print("")
-    title = input("Enter trail title > ")
-    address = input("Enter address > ")
+    trail_title = input("Enter trail title > ")
+    trail_address = input("Enter address > ")
 
     try:
-        doc = coll.find_one({"title": first.lower(), "address": last.lower()})
+        doc = coll.find_one({"trail_title": first.lower(), "trail_address": last.lower()})
     except:
         print("Error accessing the database")
 
@@ -69,7 +69,7 @@ def add_record():
         "trail_image": image,
         "trail_length": length,
         "trail_time": time,
-        "ttrail_ype": type
+        "trail_type": type
     }
 
     try:
