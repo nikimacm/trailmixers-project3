@@ -27,7 +27,7 @@ def get_base():
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
-        # check if username already exists in db
+        # check for existing user in db
         existing_user = mongo.db.users.find_one(
             {"username": request.form.get("username").lower()})
 
