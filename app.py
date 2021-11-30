@@ -99,6 +99,10 @@ def logout():
     return redirect(url_for("login"))
 
 
+@app.route("/add_trail")
+def add_trail():
+    return render_template("add_trail.html")
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
