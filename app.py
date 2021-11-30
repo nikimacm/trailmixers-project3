@@ -50,9 +50,9 @@ def register():
     return render_template("register.html")
 
 
-@app.route("/sign_in", methods=["GET", "POST"])
-def sign_in():
-    return render_template("sign_in.html")
+@app.route("/login", methods=["GET", "POST"])
+def login():
+    return render_template("login.html")
 
 
 if __name__ == "__main__":
