@@ -5,7 +5,7 @@
 
     <h3 class="light-blue-text text-darken-4 center-align">Add Trail</h3>
 
-    <div class="row">
+    <div class="row card-panel grey lighten-5">
         <form class="col s12" method="POST" action="">
             <div class="row">
                 <div class="input-field col s12">
@@ -46,15 +46,45 @@
                         maxlength="200" class="materialize-textarea validate" required></textarea>
                     <label for="trail_description">Trail Description</label>
                 </div>
-
+            </div>
+            
             <div class="row">
-                <div class="input-field col s12">
+                    <div class="input-field col s12">
                         <i class="prefix light-blue-text text-darken-4"></i>
                         <textarea id="trail_directions" name="trail_directions" minlength="5"
                             maxlength="200" class="materialize-textarea validate" required></textarea>
-                        <label for="trail_directions">Trail Directions</label>
-                </div>
+                            <label for="trail_directions">Trail Directions</label>
+                    </div>
+            </div>
+            
+            <div class="row">
+                <form action="#">
+                    <div class="file-field col s12 browser-default ">
+                      <div class="btn">
+                        <span>Upload Photo</span>
+                        <input type="file">
+                      </div>
+                      <div class="file-path-wrapper">
+                        <input class="file-path validate">
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <form action="#">
+                            <div class="file-field col s12 browser-default ">
+                              <div class="btn">
+                                <span>Upload Map</span>
+                                <input type="file">
+                              </div>
+                              <div class="file-path-wrapper">
+                                <input class="file-path validate">
+                              </div>
+                            </div>
+                  </form>
+            </div>
+    
         </form>
+
     </div>
 
 {% endblock %}
