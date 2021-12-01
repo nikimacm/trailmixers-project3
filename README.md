@@ -51,19 +51,29 @@
 * [CREDITS](#credits)
 
 ### Overview <hr>
-TrailMixers is a website where users can add, edit, delete and search hiking trails in the provence of Andalcia, Spain. They can also upload photos and maps showing their trails. Each route will provide:
-    * A title
-    * Address of the trail
-    * Difficulty level, Easy, moderate or hard
-    * Description
-    * Directions
-    * Photos
-    * Maps
+
+TrailMixers is a website where users can add, edit, delete and search hiking trails in the Province of Andalucia, Spain. They can also upload photos and maps showing their trails. 
+Each route will provide:
+
+- A title
+- Address of the trail
+- Difficulty level, Easy, moderate or hard
+- Description
+- Directions
+- Photos
+- Maps
+
+The site will also provide a comment section where users can give opinions or tips and advice on the trails, where to eat, sleep nearby etc.
  
 ### UX <hr>
+
 #### Project Goals 
 
+The goal of this project is to utilize the skills aquired throughout the course so far to build a full-stack site that allows users to manage and share data on hiking trails in Andalucia. 
 
+The site should provide users with information on Andalucian trails and also give the oppportunity to create a community where users can share their experiences.
+
+A possible benefit for the owner of the site could be to obtain revenue from advertising through affiliated links and sponsorship. 
 
 #### User Goals
 
