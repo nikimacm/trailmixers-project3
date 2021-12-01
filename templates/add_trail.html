@@ -6,7 +6,7 @@
     <h3 class="light-blue-text text-darken-4 center-align">Add Trail</h3>
 
     <div class="row card-panel grey lighten-5">
-        <form class="col s12" method="POST" action="">
+        <form class="col s12" method="POST" action="{{ url_for('add_trail') }}">
         <!-- trail title -->
             <div class="row">
                 <div class="input-field col s12">
@@ -27,17 +27,16 @@
             </div>
         <!-- trail difficulty -->
             <div class="row">  
-                <div class="input-field col s12 browser-default ">
+                <div class="input field col s12">
                     <i class="prefix light-blue-text text-darken-4"></i>
-                    <input id="trail_difficulty" name="trail_difficulty"
-                    type="text" class="validate" required>
-                    <label for="trail_difficulty">Trail Difficulty</label>
-                <select>
-                  <option value="" disabled selected></option>
+                <select id="trail_difficulty" name="trail_difficulty"
+                class="validate" required>
+                  <option value="0" >Choose Difficulty</option>
                   <option value="1">Easy</option>
                   <option value="2">Moderate</option>
                   <option value="3">Hard</option>
                 </select>
+                <label for="trail_difficulty">Trail Difficulty</label>
             </div>
         <!-- trail description -->    
             <div class="row">
