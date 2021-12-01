@@ -102,7 +102,6 @@ def logout():
 @app.route("/add_trail", methods=["GET", "POST"])
 def add_trail():
     if request.method == "POST":
-    
         task = {
             "trail_title": request.form.get("trail_title"),
             "trail_address": request.form.get("trail_address"),

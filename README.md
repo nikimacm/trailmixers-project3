@@ -51,7 +51,14 @@
 * [CREDITS](#credits)
 
 ### Overview <hr>
-
+TrailMixers is a website where users can add, edit, delete and search hiking trails in the provence of Andalcia, Spain. They can also upload photos and maps showing their trails. Each route will provide:
+    * A title
+    * Address of the trail
+    * Difficulty level, Easy, moderate or hard
+    * Description
+    * Directions
+    * Photos
+    * Maps
  
 ### UX <hr>
 #### Project Goals 
