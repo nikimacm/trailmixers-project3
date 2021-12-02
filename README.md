@@ -1,5 +1,8 @@
 ![Website Mokup]()
 
+TrailMixers is a website where users can add, edit, delete and search hiking trails in the Province of Andalucia, Spain. They can also upload photos and maps showing their trails. 
+Each route will provide:
+
  [View Live Site Here]()
 
 
