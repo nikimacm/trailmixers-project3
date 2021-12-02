@@ -108,7 +108,6 @@ def logout():
 @app.route("/add_trail", methods=["GET", "POST"])
 def add_trail():
     if request.method == "POST":
-        is_urgent = "on" if request.form.get("is_urgent") else "off"
         trail = {
             "trail_title": request.form.get("trail_title"),
             "trail_address": request.form.get("trail_address"),
@@ -121,6 +120,9 @@ def add_trail():
         mongo.db.trails.insert_one(trail)
         flash("Trail Successfully Added")
         return redirect(url_for("profile"))
+
+    trails = mongo.db.trails.find().sort("trails_difficulty", 1)
+    return render_template("add_trail.html", trails=trails)
 
 
 if __name__ == "__main__":
