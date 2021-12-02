@@ -1,16 +1,38 @@
-.text-shadow {
-    text-shadow: 2px 2px 2px rgb(0, 0, 0.5);
-}
-
-.flashes h4 {
-    line-height: 2;
-}
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&family=DM+Sans:wght@500&display=swap');
 
 body {
+    font-family: 'DM Sans', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
+
+.brand-logo {
+    font-family: 'DM Sans', sans-serif;
+    margin-left: 10px;
+}
+
+.nav-extended {
+    text-transform: uppercase;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 2em;
+}
+.text-shadow {
+    text-shadow: 1px 1px 1px rgb(0, 0, 0.5);
+}
+
+#tag-line{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.flashes h4 {
+    line-height: 2;
+}
 
   main {
     flex: 1 0 auto;
@@ -18,6 +40,11 @@ body {
 
   .page-footer {
       background-color:#3e2723 ;
+      margin-top: 10%;
+  }
+
+  #index-banner {
+      margin-top: 10%;
   }
 
   .parallax-container {
@@ -29,6 +56,7 @@ body {
     .parallax-container .section {
       width: 100%;
     }
+
   
   @media only screen and (max-width : 992px) {
     .parallax-container .section {
