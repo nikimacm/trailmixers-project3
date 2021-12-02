@@ -16,7 +16,6 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
-
 @app.route("/")
 @app.route("/get_base")
 def get_base():
@@ -104,21 +103,22 @@ def logout():
 @app.route("/add_trail", methods=["GET", "POST"])
 def add_trail():
     if request.method == "POST":
-        task = {
+        is_urgent = "on" if request.form.get("is_urgent") else "off"
+        trail = {
             "trail_title": request.form.get("trail_title"),
             "trail_address": request.form.get("trail_address"),
             "trail_difficulty": request.form.get("trail_difficulty"),
             "trail_description": request.form.get("trail_description"),
             "trail_directions": request.form.get("trail_directions"),
-            "trail_images":equest.form.get("trail_images"),
+            "trail_images": request.form.get("trail_images"),
             "created_by": session["user"]
         }
         mongo.db.trails.insert_one(trail)
         flash("Trail Successfully Added")
-        return redirect(url_for("get_base"))
+        return redirect(url_for("profile"))
 
 
 if __name__ == "__main__":
-    app.run(host=os.environ.get("IP"),
-            port=int(os.environ.get("PORT")),
-            debug=False)
+    app.run(host=os.environ.get("IP", "0.0.0.0"),
+            port=int(os.environ.get("PORT", "5000")),
+            debug=True)
