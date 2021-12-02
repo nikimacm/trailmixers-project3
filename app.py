@@ -23,6 +23,11 @@ def get_base():
     return render_template("base.html", base=base)
 
 
+@app.route("/index")
+def index():
+    return render_template("index.html", index=index)
+
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
