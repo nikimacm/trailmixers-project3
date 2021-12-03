@@ -17,10 +17,10 @@ app.secret_key = os.environ.get("SECRET_KEY")
 mongo = PyMongo(app)
 
 @app.route("/")
-@app.route("/get_base")
-def get_base():
-    base = mongo.db.base.find()
-    return render_template("base.html", base=base)
+@app.route("/get_index")
+def get_index():
+    index = mongo.db.index.find()
+    return render_template("index.html", index=index)
 
 
 @app.route("/index")
@@ -118,7 +118,7 @@ def add_trail():
         }
         mongo.db.trails.insert_one(trail)
         flash("Trail Successfully Added")
-        return redirect(url_for("profile"))
+        return redirect(url_for("add_trail"))
 
     trails = mongo.db.trails.find().sort("trails_difficulty", 1)
     return render_template("add_trail.html", trails=trails)
