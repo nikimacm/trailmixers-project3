@@ -114,7 +114,6 @@ def add_trail():
             "trail_difficulty": request.form.get("trail_difficulty"),
             "trail_description": request.form.get("trail_description"),
             "trail_directions": request.form.get("trail_directions"),
-            "trail_images": request.form.get("trail_images"),
             "created_by": session["user"]
         }
         mongo.db.trails.insert_one(trail)
