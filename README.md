@@ -1,12 +1,24 @@
 ![Website Mokup]()
 
+# TrailMixer
+
+### Overview <hr>
+
 TrailMixers is a website where users can add, edit, delete and search hiking trails in the Province of Andalucia, Spain. They can also upload photos and maps showing their trails. 
 Each route will provide:
 
+- A title
+- Address of the trail
+- Difficulty level, Easy, moderate or hard
+- Description
+- Directions
+- Photos
+- Maps
+
+The site will also provide a comment section where users can give opinions or tips and advice on the trails, where to eat, sleep nearby etc.
+
  [View Live Site Here]()
 
-
-# TrailMixer
 
 ## Contents
 
@@ -53,20 +65,6 @@ Each route will provide:
 
 * [CREDITS](#credits)
 
-### Overview <hr>
-
-TrailMixers is a website where users can add, edit, delete and search hiking trails in the Province of Andalucia, Spain. They can also upload photos and maps showing their trails. 
-Each route will provide:
-
-- A title
-- Address of the trail
-- Difficulty level, Easy, moderate or hard
-- Description
-- Directions
-- Photos
-- Maps
-
-The site will also provide a comment section where users can give opinions or tips and advice on the trails, where to eat, sleep nearby etc.
  
 ### UX <hr>
 
@@ -80,9 +78,13 @@ A possible benefit for the owner of the site could be to obtain revenue from adv
 
 #### User Goals
 
-1. 
+1. To be able to search and browse through trails in Andalucia.
 
-2. 
+2. Find all the information necessary for each trail like distance, difficulty level, address and directions.
+
+3. To create a personal profile to upload and store trails.
+
+4. Become part of a hiking community
 
 #### User Stories
 
