@@ -84,31 +84,57 @@ A possible benefit for the owner of the site could be to obtain revenue from adv
 
 3. To create a personal profile to upload and store trails.
 
-4. Become part of a hiking community
+4. To be able to register and create a profile easily.
+
+5. Find out more information on potential trails by reading comments and asking questions.
+
+6. Become part of a hiking community and give tips and advice to other hikers.
+
+7. To view photos of the trails and surrounding areas.
 
 #### User Stories
 
-3. 
+8. As a hiker I want to be able to find interesting and off the beaten track trails used by other members of the site.
 
-4. 
+9. As a regular user I want to be able to upload my own trails to share with the community and get opinions on my trail.
+
+10. As someone who is interested in hiking in Andalucia I want to find trails that will suit my needs.
+
+11. As someone who isn't used to hiking I would like to find trails which are easy to moderate level.
+
+12. As a very experienced hiker, I hope to find difficult trails that will challenge me.
+
+13. As a regular user I hope to meet other users who live in my area and can organise hikes together.
+
+14. As a user I would like to be able to see more posts and photos on the sites social media sites.
 
 #### Site Owner Goals
 
-5. 
+15. Design a site which represents the services offered and will appeal to the target market using appropriate colour schemes, imagery, typography and useful information.
 
-6.  
+16. Ensure the site is easy to navigate and all information can be found by visitors within seconds.
 
-7. 
+17. Ensure the registration process is simple and fast.
+
+18. Increase website traffic from the target audience using tools such as google analytics, blogging and social media.
+
+19. Produce a site which is easily accessible on all sizes, mobile devices and browsers.
+
+20. To eventually gain revenue from the site through affiliated links and advertsiing. Potential clients could be sports shops, hotels ,restaurants and tour companies.
 
 #### User Requirements and expectations
 
-8. 
+21. A fast loading time.
 
-9. 
+22. A website which is clear and easy to navigate.
 
-10. 
+23. Recognisable format, no surprises.
 
-11. 
+24. A well designed, aesthetically pleasing user interface.
+
+25. For all navigation links to function correctly and create an easy route.
+
+26. All information added is saved and easily accessible. 
 
 ![User Goals Test]()
 
@@ -116,6 +142,7 @@ A possible benefit for the owner of the site could be to obtain revenue from adv
 
 #### DESIGN CHOICES
 
+I have used a clean, simple design throughout the site to make it easily accessible across all mediums and give the user the information they need without feeling overwhelmed by too many images and too much information.
 
 
 #### COLOURS
