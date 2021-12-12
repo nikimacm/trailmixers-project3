@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 body {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
   }
 
 .brand-logo {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Alegreya Sans', sans-serif;
     margin-left: 10px;
 }
 

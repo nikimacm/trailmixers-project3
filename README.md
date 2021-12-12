@@ -147,10 +147,16 @@ I have used a clean, simple design throughout the site to make it easily accessi
 
 #### COLOURS
 
+I chose this color scheme as it reflects the colours of nature while assuring readabilty and accessability. I think these shades of green and brown go well together and are in line with the simplistic design of the site.
+
+
+- ![#00695c](https://via.placeholder.com/15/00695c/000000?text=+) `#00695c`
+- ![#3e2723](https://via.placeholder.com/15/3e2723/000000?text=+) `#3e2723`
 
 
 #### FONTS
 
+The fonts I use for this project are DM Sans and Alegreya Sans. 
 
 
 #### IMAGES
