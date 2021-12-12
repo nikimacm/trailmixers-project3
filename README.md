@@ -156,7 +156,7 @@ I chose this color scheme as it reflects the colours of nature while assuring re
 
 #### FONTS
 
-The fonts I use for this project are DM Sans and Alegreya Sans. 
+The fonts I use for this project are Alegreya Sans and Merriweather Sans. These fonts compliment each other well and create a pleasant feel for users.
 
 
 #### IMAGES
