@@ -17,7 +17,7 @@ Each route will provide:
 
 The site will also provide a comment section where users can give opinions or tips and advice on the trails, where to eat, sleep nearby etc.
 
- [View Live Site Here]()
+ [View Live Site Here](https://trailmixers-project3.herokuapp.com/)
 
 
 ## Contents
@@ -156,12 +156,12 @@ I chose this color scheme as it reflects the colours of nature while assuring re
 
 #### FONTS
 
-The fonts I use for this project are Alegreya Sans and Merriweather Sans. These fonts compliment each other well and create a pleasant feel for users.
+The fonts I use for this project are Alegreya Sans and Merriweather Sans. These fonts compliment each other well and create a pleasant feel for users. 
 
 
 #### IMAGES
 
-
+Images used on the landing page were borrowed from a friend Lena Marie Anderson from a trail she hiked in Cadiz, Guadalete Park, Andalucia. 
 
 ### WIREFRAMES <hr>
 
@@ -171,7 +171,6 @@ The fonts I use for this project are Alegreya Sans and Merriweather Sans. These 
 * [mobile-wireframes]()
 
 
-
 #### Tablet
 
 * [tablet-wireframes]()
@@ -179,6 +178,14 @@ The fonts I use for this project are Alegreya Sans and Merriweather Sans. These 
 #### Desktop
 
 * [desktop-wireframes]()
+
+### DATABASE <hr>
+
+This is a data-centric website using html, javascript, jQuery and  css used with materialize framework as a frontend
+The backend consists of Python, flask and jinja templates with a database of a mongodb open-source document-oriented database
+
+### Conceptual database model
+The first step in the database design was to create a conceptual data model. The helped me understand the design at a conceptual level while enabling me to understand the required collections in the database.
 
 
 
