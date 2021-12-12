@@ -5,4 +5,3 @@ Flask-PyMongo==2.3.0
 itsdangerous==2.0.1
 pymongo[srv]==3.12.1
 Werkzeug==2.0.2
-gunicorn
