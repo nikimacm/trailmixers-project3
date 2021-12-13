@@ -178,7 +178,11 @@ Images used on the landing page were borrowed from a friend Lena Marie Anderson 
 
 #### Desktop
 
-* [desktop-wireframes]()
+* [desktop-home](static/docs/wireframes/desktop/home_desktop.png)
+* [desktop-get_started](static/docs/wireframes/desktop/get_started_desktop.png)
+* [desktop-sign_in](static/docs/wireframes/desktop/sign_in_desktop.png)
+* [desktop-sign_up](static/docs/wireframes/desktop/sign_up_desktop.png)
+* [desktop-member_page](static/docs/wireframes/desktop/member_page_desktop.png)
 
 ### DATABASE <hr>
 
