@@ -1,4 +1,4 @@
-![Website Mokup]()
+![Website Mokup](static/docs/mokup_milestone3.png)
 
 # TrailMixer
 
