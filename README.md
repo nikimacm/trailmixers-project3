@@ -168,12 +168,13 @@ Images used on the landing page were borrowed from a friend Lena Marie Anderson 
 
 #### Mobile
 
-* [mobile-wireframes]()
-
-
-#### Tablet
-
-* [tablet-wireframes]()
+* [mobile-home](static/docs/wireframes/mobile/home.png)
+* [mobile-get_started](static/docs/wireframes/mobile/get_started.png)
+* [mobile-sign_in](static/docs/wireframes/mobile/sign_in.png)
+* [mobile-sign_up](static/docs/wireframes/mobile/sign_up.png)
+* [mobile-add](static/docs/wireframes/mobile/add.png)
+* [mobile-member_page](static/docs/wireframes/mobile/member_page.png)
+* [mobile-trail_data](static/docs/wireframes/mobile/trail_data.png)
 
 #### Desktop
 
