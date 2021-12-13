@@ -127,7 +127,7 @@ def add_trail():
 
 @app.route("/trails")
 def trails():
-    trails = mongo.db.trails.find()
+    trails = list(mongo.db.trails.find())
     return render_template("trails.html", trails=trails)
 
 
