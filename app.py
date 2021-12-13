@@ -133,6 +133,18 @@ def trails():
 
 @app.route("/edit_trail/<trail_id>", methods=["GET", "POST"])
 def edit_trail(trail_id):
+    if request.method == "POST":
+        submit = {
+            "trail_title": request.form.get("trail_title"),
+            "trail_address": request.form.get("trail_address"),
+            "trail_created_by": session["user"],
+            "trail_description": request.form.get("trail_description"),
+            "trail_difficulty": request.form.get("trail_difficulty"),
+            "trail_directions": request.form.get("trail_directions")
+        }
+        mongo.db.trails.update({"_id": ObjectId(trail_id)}, submit)
+        flash("Trail Successfully Updated")
+
     trail = mongo.db.trails.find_one({"_id": ObjectId(trail_id)})
     categories = mongo.db.trails.find().sort("trail_title", 1)
     return render_template("edit_trail.html", trail=trail, trails=trails)
