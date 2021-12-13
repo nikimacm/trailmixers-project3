@@ -29,6 +29,13 @@ def index():
     return render_template("index.html", index=index)
 
 
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    trails = list(mongo.db.trails.find({"$text": {"$search": query}}))
+    return render_template("trails.html", trails=trails)
+
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
