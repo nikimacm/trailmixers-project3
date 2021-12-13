@@ -109,20 +109,26 @@ def logout():
 @app.route("/add_trail", methods=["GET", "POST"])
 def add_trail():
     if request.method == "POST":
-        trail = {
+        trails = {
             "trail_title": request.form.get("trail_title"),
             "trail_address": request.form.get("trail_address"),
-            "trail_difficulty": request.form.get("trail_difficulty"),
+            "trail_created_by": session["user"],
             "trail_description": request.form.get("trail_description"),
-            "trail_directions": request.form.get("trail_directions"),
-            "created_by": session["user"]
+            "trail_difficulty": request.form.get("trail_difficulty"),
+            "trail_directions": request.form.get("trail_directions")
         }
-        mongo.db.trails.insert_one(trail)
+        mongo.db.trails.insert_one(trails)
         flash("Trail Successfully Added")
-        return redirect(url_for("add_trail"))
+        return redirect(url_for("trails"))
 
     trails = mongo.db.trails.find().sort("trails_difficulty", 1)
     return render_template("add_trail.html", trails=trails)
+
+
+@app.route("/trails")
+def trails():
+    trails = mongo.db.trails.find()
+    return render_template("trails.html", trails=trails)
 
 
 if __name__ == "__main__":
