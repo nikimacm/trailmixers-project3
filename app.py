@@ -150,6 +150,13 @@ def edit_trail(trail_id):
     return render_template("edit_trail.html", trail=trail, trails=trails)
 
 
+@app.route("/delete_trail/<trail_id>")
+def delete_trail(trail_id):
+    mongo.db.trails.remove({"_id": ObjectId(trail_id)})
+    flash("Trail Successfully Deleted")
+    return redirect(url_for("get_index"))
+
+
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP", "0.0.0.0"),
             port=int(os.environ.get("PORT", "5000")),
