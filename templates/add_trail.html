@@ -5,7 +5,7 @@
 
     <div class="row card-panel grey lighten-5">
         <form class="col s12" method="POST" action="{{ url_for('add_trail') }}">
-        <!-- trail title -->
+            <!-- trail title -->
             <div class="row">
                 <div class="input-field col s12">
                     <i class="prefix light-blue-text text-darken-4"></i>
@@ -27,14 +27,15 @@
             <div class="row">  
                 <div class="input field col s12">
                     <i class="prefix light-blue-text text-darken-4"></i>
-                <select id="trail_difficulty" name="trail_difficulty"
-                class="validate" required>
-                  <option value="0" >Level</option>
-                  <option value="1">Easy</option>
-                  <option value="2">Moderate</option>
-                  <option value="3">Hard</option>
-                </select>
-                <label for="trail_difficulty">Trail Difficulty</label>
+                        <select id="trail_difficulty" name="trail_difficulty"
+                        class="validate" required>
+                        <option value="" >Level</option>
+                        <option value="1">Easy</option>
+                        <option value="2">Moderate</option>
+                        <option value="3">Hard</option>
+                        </select>
+                        <label for="trail_difficulty">Trail Difficulty</label>
+                </div>
             </div>
         <!-- trail description -->    
             <div class="row">

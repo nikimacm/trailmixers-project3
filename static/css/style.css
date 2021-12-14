@@ -52,12 +52,27 @@ h3 {
     flex: 1 0 auto;
   }
 
-  .page-footer {
+.page-footer {
       background-color:#3e2723 ;
       margin-top: 10%;
   }
 
-  #index-banner {
+#footer-icon-1 {
+
+  margin-top: 10px;
+}
+
+#footer-icon-2 {
+
+  margin-top: 10px;
+}
+
+#footer-icon-3 {
+
+  margin-top: 10px;
+}
+
+#index-banner {
       margin-top: 10%;
   }
 
@@ -67,7 +82,8 @@ h3 {
     height: auto;
     color: rgba(255,255,255,.9);
   }
-    .parallax-container .section {
+    
+  .parallax-container .section {
       width: 100%;
     }
 
@@ -77,6 +93,7 @@ h3 {
       position: absolute;
       top: 40%;
     }
+    
     #index-banner .section {
       top: 10%;
     }

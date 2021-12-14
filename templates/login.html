@@ -10,7 +10,7 @@
         <div class="row">
             <div class="input-field col s12">
             <i class="prefix teal darken-3"></i>
-            <input id="username" name="username" type="text" min-length="5" max-length="15" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
+            <input id="username" name="username" type="text" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required min-length="5" max-length="15" >
             <label for="username">Username</label>
           </div>
         </div>
@@ -18,7 +18,7 @@
         <div class="row">
             <div class="input-field col s12">
             <i class="prefix teal darken-3"></i>
-            <input id="password" name="password" type="password" min-length="5" max-length="15" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required>
+            <input id="password" name="password" type="password" pattern="^[a-zA-Z0-9]{5,15}$" class="validate" required min-length="5" max-length="15">
             <label for="password">Password</label>
           </div>
         </div>
