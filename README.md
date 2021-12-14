@@ -17,6 +17,11 @@ Each route will provide:
 
 The site will also provide a comment section where users can give opinions or tips and advice on the trails, where to eat, sleep nearby etc.
 
+I have created two profiles for testing purposes:
+1. Username:Inesita, Password:inesita
+2. Username:Admin, Password:admin
+
+
  [View Live Site Here](https://trailmixers-project3.herokuapp.com/)
 
 
@@ -255,8 +260,6 @@ Images used on the landing page were borrowed from a friend Lena Marie Anderson 
 ![Log out](static/docs/features/logout_message.png)
 
 
-
-
 ### DATABASE <hr>
 
 This is a data-centric website using html, javascript, jQuery and  css used with materialize framework as a frontend
@@ -384,8 +387,6 @@ Validation tools used:
 5. I had a lot of issues wiring up my flask app to MongoDB at the beginning of the project. I reviewed the Go Humungous with MongoDB Atlas section of the course and manipulated my data programmatically with python to get a feel of where I was going wrong and to see the data being uploaded to my console. This helped give me a greater understanding of the database structure and I got it in the end.
 
     
-
-
 ### Deployment
 
 ## Project creation
@@ -480,13 +481,25 @@ Scroll back up and click "Deploy". Scroll down and click "Enable automatic deplo
 Just beneath, click "Deploy branch". Heroku will now start building the app. When the build is complete, click "view app" to open it.
 In order to commit your changes to the branch, use git push within gitpod to push your changes
 
+### CHANGES TO IMPLEMENT AND INCLUDE<hr>
+
+Due to time constraints I did not manage to create a function to upload photos and maps to the site. I would also like to include a comment section below each trail so users can give their opinion on trails, ask questions or give advice. I would like to also include a rating function so the home page can include a trail of the day based on popularity. I hope to implement these in the future.
 
 ### CREDITS<hr>
+
+#### Code
+
+I relied heavily on code used in the Code Institutes tutorials to help me with this project, especially Code Institutes Data-Centric mini project. I used these tutorials to guide me through the process of creating this site and all the functionality needed. I ammended the code to suit my own project.
+
+I also used materialize to create responsive layouts. I was keen to try using this platform as it is new to me.
 
 
 #### Images
 
-I downloaded all the images for this site from 
+Images were borrowed from a friend from her own personal collection.
 
  
  ### ACKNOWLEDGEMENTS<hr><hr>
+ Thank you to my mentor Mo Shami for getting me started on the project and veering me onto the right track. 
+ Thank you to Code Institutes' Student care team for all their help.
+ And thanks to Jo from student support who helped me greatly in fixing the problem I had with Heroku app.
