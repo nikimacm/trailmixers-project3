@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
+
+<!--   Materialise farmework used for the layout of this page   -->
+
+<!--   Landing page image and header   -->
   <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
           <div class="container">
@@ -8,6 +12,7 @@
             <div class="row center">
               <h5 class="header col s12 light">Let's share and explore the Andalucian trails together</h5>
             </div>
+            <!--   Get started button which can be used to log in or register   -->
             <div class="row center">
               <a href="{{ url_for('login') }}" id="download-button" class="btn-large waves-effect waves-light teal darken-3">Get Started</a>
             </div>
@@ -18,11 +23,10 @@
         <div class="parallax"><img src="/static/images/background_image5.jpg" alt="resevoir"></div>
       </div>
     
-    
+    <!--   Snippets of information on site  -->
       <div class="container">
         <div class="section">
     
-          <!--   Icon Section   -->
           <div class="row">
             <div class="col s12 m4">
               <div class="icon-block">
@@ -66,10 +70,9 @@
         </div>
         <div class="parallax"><img src="/static/images/background_image3.jpeg" alt="mountain_picnic"></div>
       </div>
-    
+    <!--   Paragraph on Andalucia  -->
       <div class="container">
         <div class="section">
-    
           <div class="row">
             <div class="col s12 center">
               <h4 class="brown-text">TrailMixer</h4>
@@ -81,7 +84,7 @@
     
         </div>
       </div>
-    
+    <!--   Final Image  -->
     
       <div class="parallax-container valign-wrapper">
         <div class="section no-pad-bot">

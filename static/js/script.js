@@ -4,3 +4,5 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $(".collapsible").collapsible();
   });
+
+  //Code credit to Code Institute Data centric Design mini project. Materialise framework used

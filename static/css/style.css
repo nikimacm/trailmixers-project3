@@ -78,7 +78,7 @@ h3 {
 
   .parallax-container {
     min-height: 380px;
-    line-height: 0.4;
+    line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
   }
@@ -101,7 +101,7 @@ h3 {
   
   @media only screen and (max-width : 600px) {
     #index-banner .section {
-      top: 0.2;
+      top: 0;
     }
   }
   
