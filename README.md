@@ -298,6 +298,20 @@ Validation tools used:
 
 * [Javascript Validation](static/docs/validation/JS_validator.png)
 
+### BUGS FOUND AND THEIR FIXES <hr>
+
+1. The major bug I had a problem with throughout this project was with an application error everytime I tried to open my Heroku App. This was eventually fixed by removing unused files I had uploaded to my root at the beginning of my project while trying to fix an issue with my database. Heroku was trying to open these files and as a result I kept getting a H10 error and pymong was crashing. Deleting these files and cleaning up my workspace cleared the issue and Heroku runs with no problems.
+
+2. For a while my env.py file would disappear everytime I opened my project after closing it down. I was clicking on the green gitpod button and realised I have to go to gitpod dashboard to open my workspace instead of going directly from github.
+
+3. I had a lot of template syntax errors throughout the project which usually resulted in mistakes made with PEP8 compliance and repeating functions and empty quotes. Also typos caused me a lot of headaches and I spent many hours/days going through my code trying to spot them.
+
+4. The python tools server crashed 3 times in the last 3 minutes was an alert I came across many times. When I deleted unused files from my root this was ammended.
+
+5. I had a lot of issues wiring up my flask app to MongoDB at the beginning of the project. I reviewed the Go Humungous with MongoDB Atlas section of the course and manipulated my data programmatically with python to get a feel of where I was going wrong and to see the data being uploaded to my console. This helped give me a greater understanding of the database structure and I got it in the end.
+
+    
+
 
 ### Deployment
 
