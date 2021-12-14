@@ -37,9 +37,24 @@ The site will also provide a comment section where users can give opinions or ti
     * [Structure](#structure)
 
 * [WIREFRAMES](#wireframes)
-    * [](#)
-    * [](#)
-    * [](#)
+    
+#### Mobile
+
+* [Home](#mobile-home)
+* [Get_started](#mobile-get_started)
+* [Sign_in](#mobile-sign_in)
+* [Sign_up](#mobile-sign_up)
+* [Add](#mobile-add)
+* [Member_page](#mobile-member_page)
+* [Trail_data](#mobile-trail_data)
+
+#### Desktop
+
+* [home](#desktop-home)
+* [Get_started](#desktop-get_started)
+* [Sign_in](#desktop-sign_in)
+* [Sign_up](#desktop-sign_up)
+* [Member_page](#desktop-member_page)
 
 
 * [TECHNOLOGIES USED](#technologies)
@@ -136,7 +151,6 @@ A possible benefit for the owner of the site could be to obtain revenue from adv
 
 26. All information added is saved and easily accessible. 
 
-![User Goals Test]()
 
 ### DESIGN <hr>
 
@@ -183,6 +197,65 @@ Images used on the landing page were borrowed from a friend Lena Marie Anderson 
 * [desktop-sign_in](static/docs/wireframes/desktop/sign_in_desktop.png)
 * [desktop-sign_up](static/docs/wireframes/desktop/sign_up_desktop.png)
 * [desktop-member_page](static/docs/wireframes/desktop/member_page_desktop.png)
+
+### FEATURES <hr>
+
+#### Feature 1: Home Page
+
+* Home page navbar accessible to non registered users and users before they log in.
+
+![Navbar non registered users](static/docs/features/navbar_home.png)
+
+* Navbar accessible to logged in users. Once you log in you have access to trails and the ability to create your own trail, read it, edit it and delete it based on CRUD functionality.
+
+![Navbar non registered users](static/docs/features/navbar_user.png)
+
+* Get started button which leads you to the log in page which has a register button for users who haven't registered yet
+
+![Get Started Button](static/docs/features/home_get-started.png)
+
+* The footer at the bottom of the page has live links for the most popular trails in Andalucia. It also dislays the social media links.
+
+![Get Started Button](static/docs/features/footer.png)
+
+* This is the registration page where potential users can add their name, surname, email, username and password, which will be stored on the database.
+
+![Registration Page](static/docs/features/register_page.png)
+
+* Once registered the user can log in here.
+
+![Log In Page](static/docs/features/login_page.png)
+
+* And they will be directed to their profile page with a welcome message based on their username
+
+![User Profile](static/docs/features/welcome_message.png)
+
+* From here the user can click on to the trails button to view all trails
+
+![All trails](static/docs/features/all_trails.png)
+
+* Or click on the Add Trail button in the navbar to add their own trail.
+
+![Add trails](static/docs/features/add_trail.png)
+
+* The user can search for a trail already saved in the database.
+
+![Search trails](static/docs/features/search.png)
+
+* Or edit or delete a trail they have already created by clicking on one of these buttons
+
+![Delete/Edit buttons](static/docs/features/delete_edit_btns.png)
+
+* To edit, the user needs to ammend their trail using this form and press edit or cancel if they change their mind or rather do it later.
+
+![Edit trail](static/docs/features/edit_trail.png)
+
+* When the user is finished on the site they can click on the log out button on the navbar and be redirected to the homepage with a message telling them they have logged out successfully.
+
+![Log out](static/docs/features/logout_message.png)
+
+
+
 
 ### DATABASE <hr>
 
