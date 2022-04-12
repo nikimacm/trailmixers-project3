@@ -153,7 +153,7 @@ def edit_trail(trail_id):
         flash("Trail Successfully Updated")
 
     trail = mongo.db.trails.find_one({"_id": ObjectId(trail_id)})
-    categories = mongo.db.trails.find().sort("trail_title", 1)
+    trails = mongo.db.trails.find().sort("trail_title", 1)
     return render_template("edit_trail.html", trail=trail, trails=trails)
 
 
