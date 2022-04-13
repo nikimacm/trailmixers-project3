@@ -25,22 +25,21 @@
     </form>
 </div>
 
-    {% if trails|length > 0 %}
-    <ul class="collapsible">
-        {% for trail in trails %}
-        <li>
-            <div class="collapsible-header black-text teal lighten-5 text-shadow-white">
-                <div class="col s3">
-                    <i class="fas fa-caret-down"></i>
-                    {% if session.user|lower == trail.created_by|lower %}
-                    <a href="{{ url_for('delete_trail', trail_id=trail._id) }}" class="btn-small brown darken-4">Delete</a>
-                    <a href="{{ url_for('edit_trail', trail_id=trail._id) }}" class="btn-small teal darken-3">Edit</a>
-                    {% endif %}
+{% if trails|length > 0 %}
+<ul class="collapsible">
+    {% for trail in trails %}
+    <li>
+        <div class="collapsible-header black-text teal lighten-5 text-shadow-white">
+            <div class="col s3">
+                <i class="fas fa-caret-down"></i>
+                {% if session.user|lower == trail.trail_created_by|lower %}
+                <a href="{{ url_for('delete_trail', trail_id=trail._id) }}" class="btn-small brown darken-4">Delete</a>
+                <a href="{{ url_for('edit_trail', trail_id=trail._id) }}" class="btn-small teal darken-3">Edit</a>
+                {% endif %}
                 </div>
-                    <div class="col s9">
-                        
-                        <strong>{{ trail.trail_title}}</strong> : {{ trail.trail_address }}
-                    </div>
+                <div class="col s9">
+                    <strong>{{ trail.trail_title}}</strong> : {{ trail.trail_address }}
+                </div>
             </div>
             <div class="collapsible-body">
                 <strong>{{ trail.trail_description }}</strong>
@@ -48,9 +47,9 @@
                 <p>{{ trail.trail_difficulty }}</p>
                 <p>{{ trail.trail_created_by }}</p>
             </div>
-        </li>
+    </li>
         {% endfor %}
-    </ul>
+</ul>
     {% else %}
         <h3 class="red-text text-darken-4 center-align">No Results Found</h3>
     {% endif %}
