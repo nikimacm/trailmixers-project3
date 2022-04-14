@@ -17,9 +17,10 @@ Each route will provide:
 
 The site will also provide a comment section where users can give opinions or tips and advice on the trails, where to eat, sleep nearby etc.
 
-I have created two profiles for testing purposes:
+I have created three profiles for testing purposes:
 1. Username:Inesita, Password:inesita
 2. Username:Admin, Password:admin
+3. Username:felipe, Password:felipe
 
 
  [View Live Site Here](https://trailmixers-project3.herokuapp.com/)
