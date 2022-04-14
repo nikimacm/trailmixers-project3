@@ -344,7 +344,7 @@ Languages used:
 ![Site Owners Goals test](/static/docs/testing/user_requirements_ms3.png)
 
 
-### Performance
+### Performance Testing
 
 Google Lighthouse was used to measure the speed and performance of the website. 
 
