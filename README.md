@@ -331,6 +331,11 @@ Languages used:
 
 ### TESTING <hr>
 
+#### User Goals Testing
+
+![User Goals Test](/static/docs/testing/user_goals_testing_ms3.png)
+
+
 ### Performance
 
 Google Lighthouse was used to measure the speed and performance of the website. 
@@ -385,6 +390,8 @@ Validation tools used:
 4. The python tools server crashed 3 times in the last 3 minutes was an alert I came across many times. When I deleted unused files from my root this was ammended.
 
 5. I had a lot of issues wiring up my flask app to MongoDB at the beginning of the project. I reviewed the Go Humungous with MongoDB Atlas section of the course and manipulated my data programmatically with python to get a feel of where I was going wrong and to see the data being uploaded to my console. This helped give me a greater understanding of the database structure and I got it in the end.
+
+6. The main reason for resubmission was due to the fact that my edit and delete buttons weren't functioning. I discovered a typo in my code on the trails.html page. In my if junja statement I had {% if session.user|lower == trail.created_by|lower %} trail_ is missing so I ammended it to {% if session.user|lower == trail.trail_created_by|lower %} and everything worked.
 
     
 ### Deployment
