@@ -335,6 +335,14 @@ Languages used:
 
 ![User Goals Test](/static/docs/testing/user_goals_testing_ms3.png)
 
+#### User Stories Testing
+
+![User Stories Test](/static/docs/testing/user_stories_test_ms3.png)
+
+#### User Requirements and Expecteations Testing
+
+![Site Owners Goals test](/static/docs/testing/user_requirements_ms3.png)
+
 
 ### Performance
 
